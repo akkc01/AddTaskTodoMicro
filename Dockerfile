@@ -20,7 +20,6 @@
 # CMD ["uvicorn", "app:app", "--host", "0.0.0.0", "--port", "8000"]
 # #CMD uvicorn app:app --host 0.0.0.0 --port 8000\
 
-
 # Use slim image (smaller + better for prod)
 FROM python:3.9-slim
 
